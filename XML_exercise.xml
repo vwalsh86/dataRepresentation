@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book category="technical">
+        <ISBN>1000000123</ISBN>
+        <title>Techie Book</title>
+        <author>Author 1</author>
+    </book>
+    
+    <book category="technical">
+        <ISBN>1000000321</ISBN>
+        <title>Ultimate Tech Book</title>
+        <author>Author 2</author>
+    </book>
+    
+    <book category="cookery">
+        <ISBN>1230000000</ISBN>
+        <title>Cooking for Dummies</title>
+        <author>Chef 1</author>
+    </book>
+
+    <book category="cookery">
+        <ISBN>3210000000</ISBN>
+        <title>Cooking 101</title>
+        <author>Cookie 2</author>
+    </book>
+
+</library>
+
+# I had initially created two seperate categories like tables and each book for cookery and technical under each.
+# But, having reviewed the slides again, I decided to add the category after each book as the attribute category.
+# I chose to add the ISBN, Title and Author as the child attributes and use Category within the book attribute to differentiate based on what was asked in the exercise.
